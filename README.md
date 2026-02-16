@@ -1,30 +1,24 @@
 # Library Management System
-A comprehensive library management application built with modern web technologies, providing complete CRUD operations for efficient library administration.
 
-## 🚀 Overview
+A full-stack Library Management System built using Java, Spring Boot, MySQL, and React.
 
-The Library Management System is a full-stack web application designed to streamline library operations. It enables librarians and administrators to manage books through an intuitive web interface.
+## Features
+- Add, update, delete books
+- Issue and return books
+- User management
+- REST APIs with Spring Boot
+- MySQL database integration
 
-## 🛠️ Tech Stack
+## Tech Stack
+- Backend: Java, Spring Boot
+- Frontend: React
+- Database: MySQL
 
-### Frontend
-- **ReactJS**
-- **HTML5 & CSS3**
-- **JavaScript (ES6+)**
+## How to Run
+1. Clone the repository
+2. Setup MySQL database
+3. Run Spring Boot backend
+4. Start React frontend
 
-### Backend
-- **Java**
-- **Spring Boot**
-- **Spring Data JPA**
-
-### Database
-- **MySQL**
-
-## ✨ Features
-
-### Core Functionality
-- **📚 Book Management**
-  - Add new books to the library catalog
-  - View all books with detailed information
-  - Update book details and availability status
-  - Remove books from the system
+## Author
+Nakul Sonkar
