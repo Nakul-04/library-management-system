@@ -1,63 +1,83 @@
 # Library Management System
 
-A full-stack Library Management System developed using **Java, Spring Boot, React, and MySQL**.  
-The application is designed to simulate real-world library operations with a clean architecture, RESTful APIs, and an interactive user interface.
+A full-stack Library Management System built using **Spring Boot** and **React**.  
+It allows users to perform complete CRUD operations on books with real-time frontend and backend integration.
 
 ---
 
-## Project Overview
-The system provides a complete solution for managing library activities such as book records, issuing, returning, and user operations.  
-It follows a layered architecture with a Spring Boot backend and a React-based frontend to ensure scalability, maintainability, and smooth user experience.
+## Features
+
+- Add new books
+- View all books
+- Update book details
+- Delete books
+- RESTful API integration
+- Responsive user interface
 
 ---
 
-## Key Features
-- Book management (Add, update, delete, and view books)
-- Issue and return book functionality
-- User management module
-- RESTful API implementation
-- MySQL database integration
-- Responsive and interactive frontend interface
+## Tech Stack
 
----
-
-## Technology Stack
-**Backend**
+### Backend
 - Java
 - Spring Boot
 - Spring Data JPA
-- Maven
-
-**Frontend**
-- React.js
-- JavaScript
-- HTML5
-- CSS3
-
-**Database**
 - MySQL
+
+### Frontend
+- React
+- Axios
+- HTML, CSS, JavaScript
 
 ---
 
-## System Architecture
-- Layered backend architecture (Controller → Service → Repository)
-- REST API communication between frontend and backend
-- Persistent data storage using MySQL
+## Project Structure
+
+### Backend (Spring Boot)
+- Controller Layer
+- Service Layer
+- Repository Layer
+- MySQL Database
+
+### Frontend (React)
+- Book List Component
+- Add Book Form
+- Update Book Form
+- Delete Book Option
+
+---
+
+## API Endpoints
+
+| Method | Endpoint        | Description        |
+|--------|-----------------|--------------------|
+| GET    | /books          | Get all books      |
+| GET    | /books/{id}     | Get book by ID     |
+| POST   | /books          | Add new book       |
+| PUT    | /books/{id}     | Update book        |
+| DELETE | /books/{id}     | Delete book        |
 
 ---
 
 ## How to Run the Project
 
-### 1. Database Setup
-- Install and start MySQL.
-- Create a new database.
-- Import the provided SQL file (if available).
+### Backend
+1. Open the backend folder in IDE (IntelliJ or VS Code).
+2. Configure MySQL database in `application.properties`.
+3. Run the Spring Boot application.
 
-### 2. Backend Setup
-- Open the backend project in an IDE.
-- Configure database credentials in `application.properties`.
-- Run the Spring Boot application.
+### Frontend
+1. Open the frontend folder in terminal.
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Start the React app:
+   ```
+   npm start
+   ```
 
-### 3. Frontend Setup
-- Navigate to the frontend project folder.
-- Install dependencies:
+---
+
+## Author
+**Nakul Sonkar**
